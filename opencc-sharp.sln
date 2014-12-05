@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "call-opencc-sharp", "call-opencc-sharp\call-opencc-sharp.csproj", "{30136922-4679-4E67-AD22-005D7413C599}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "opencc", "opencc\opencc.csproj", "{8767111A-B34B-4F93-BDAE-0BE82A11D51B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30136922-4679-4E67-AD22-005D7413C599}.Debug|x86.ActiveCfg = Debug|x86
+		{30136922-4679-4E67-AD22-005D7413C599}.Debug|x86.Build.0 = Debug|x86
+		{30136922-4679-4E67-AD22-005D7413C599}.Release|x86.ActiveCfg = Release|x86
+		{30136922-4679-4E67-AD22-005D7413C599}.Release|x86.Build.0 = Release|x86
+		{8767111A-B34B-4F93-BDAE-0BE82A11D51B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8767111A-B34B-4F93-BDAE-0BE82A11D51B}.Debug|x86.Build.0 = Debug|Any CPU
+		{8767111A-B34B-4F93-BDAE-0BE82A11D51B}.Release|x86.ActiveCfg = Release|Any CPU
+		{8767111A-B34B-4F93-BDAE-0BE82A11D51B}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = call-opencc-sharp\call-opencc-sharp.csproj
+	EndGlobalSection
+EndGlobal
