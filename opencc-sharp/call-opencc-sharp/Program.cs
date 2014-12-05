@@ -13,9 +13,10 @@ namespace callopenccsharp
 
 			string[] specialchars = {"硬件","文件夹","鼠标","头发", "恭喜发财"};
 
+
+			Console.WriteLine(Converter.Simple2Trad(zhs));
+			Console.WriteLine(Converter.Trad2Simple(zht));
 			using (Converter c = new Converter ()) {
-				Console.WriteLine(c.Simple2Trad(zhs));
-				Console.WriteLine(c.Trad2Simple(zht));
 				foreach (string spec in specialchars) {
 					Console.WriteLine (c.Convert(spec, "zhs2zhtw_vp.ini"));
 				}

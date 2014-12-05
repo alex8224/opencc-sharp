@@ -36,13 +36,17 @@ namespace OpenCC
 		}
 
 		//简体转繁体
-		public string Simple2Trad(string zhsstr) {
-			return Convert (zhsstr, "zhs2zhtw_vp.ini");
+		public static string Simple2Trad(string zhsstr) {
+			using (Converter converter = new Converter ()) {
+				return converter.Convert(zhsstr, "zhs2zhtw_vp.ini");
+			}
 		}
 
 		//繁体转简体
-		public string Trad2Simple(string zhtstr) {
-			return Convert (zhtstr, "zht2zhs.ini");
+		public static string Trad2Simple(string zhtstr) {
+			using (Converter converter = new Converter ()) {
+				return converter.Convert (zhtstr, "zht2zhs.ini");
+			}
 		}
 			
 		public void Dispose() {
